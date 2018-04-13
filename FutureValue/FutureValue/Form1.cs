@@ -46,5 +46,10 @@ namespace FutureValue
         {
             this.Close();
         }
+
+        private void ClearFutureValue(object sender, EventArgs e)
+        {
+            txtFutureValue.Text = "";
+        }
     }
 }
